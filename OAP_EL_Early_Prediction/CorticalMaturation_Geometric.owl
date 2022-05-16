@@ -1,0 +1,1055 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/CorticalMaturation.owl" ontologyIRI="http://test.org/CorticalMaturation.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/CorticalMaturation.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="CorticalMaturation" IRI="http://test.org/CorticalMaturation.owl"/>
+
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Volume"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Thickness"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Sulcal_depth"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Curvature"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Gyrification_index"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Surface_area"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CSF"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Corticalgraymatter"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Whitematter"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Background"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Ventricles"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Cerebellum"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_DeepGrayMatter"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Brainstem"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_HippocampiandAmygdala"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Hippocampusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Hippocampusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Amygdalaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Amygdalaright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Cerebellumleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Cerebellumright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Brainstemspansthemidline"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsularightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsulaleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitalloberightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitallobeleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontalloberightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontallobeleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietalloberightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietallobeleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Caudatenucleusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Caudatenucleusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamusrighthighintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamuslefthighintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Subthalamicnucleusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Subthalamicnucleusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LentiformNucleusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LentiformNucleusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CorpusCallosum"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateralVentricleleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateralVentricleright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsularightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsulaleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitalloberightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitallobeleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontalloberightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontallobeleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietalloberightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietallobeleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CSF_1"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Extra_cranialbackground"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Intra_cranialbackground"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamusrightlowintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamusleftlowintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporallobeleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporalloberightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporallobeleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporalloberightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusrightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusrightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrileftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrirightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrileftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrirightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisrightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisrightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusrightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusrightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensrightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensrightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusmiddlepartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusmiddlepartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyrianteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyrianteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyriposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyriposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyrileft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyriright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusmiddlepartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusmiddlepartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyrianteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyrianteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyriposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyriposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyrileft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyriright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusmiddlepartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusmiddlepartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyrianteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyrianteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyriposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyriposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyrileft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyriright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusmiddlepartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusmiddlepartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyrianteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyrianteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyriposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyriposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyrileft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyriright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusmiddlepartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusmiddlepartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyrianteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyrianteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemtemporalporalgyrusgyrusfusiformisanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyriposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyriposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyrileft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyriright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensright_mergedregion_"/></Declaration>
+
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#Volume"/><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#Thickness"/><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#Sulcal_depth"/><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#Curvature"/><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#Gyrification_index"/><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#Surface_area"/><Class IRI="http://test.org/CorticalMaturation.owl#CorticalMaturation"/></SubClassOf>
+
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CSF"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Corticalgraymatter"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Whitematter"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Background"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Ventricles"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Cerebellum"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_DeepGrayMatter"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Brainstem"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_HippocampiandAmygdala"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Hippocampusleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Hippocampusright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Amygdalaleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Amygdalaright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Cerebellumleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Cerebellumright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Brainstemspansthemidline"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsularightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsulaleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitalloberightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitallobeleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartrightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontalloberightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontallobeleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietalloberightGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietallobeleftGM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Caudatenucleusright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Caudatenucleusleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamusrighthighintensitypartinT2"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamuslefthighintensitypartinT2"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Subthalamicnucleusright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Subthalamicnucleusleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LentiformNucleusright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LentiformNucleusleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CorpusCallosum"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateralVentricleleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateralVentricleright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobemedialpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_AnteriortemporallobelateralpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensanteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusmiddlepartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrianteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisanteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsularightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_InsulaleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitalloberightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_OccipitallobeleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensposteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyriposteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusposteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusanteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartrightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusposteriorpartleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontalloberightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_FrontallobeleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietalloberightWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ParietallobeleftWM"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CSF_1"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Extra_cranialbackground"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_Intra_cranialbackground"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamusrightlowintensitypartinT2"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_ThalamusleftlowintensitypartinT2"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporallobeleftGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporalloberightGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporallobeleftWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_TemporalloberightWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusleftGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusrightGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusleftWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_SuperiortemporalgyrusrightWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrileftGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrirightGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrileftWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_MedialandinferiortemporalgyrirightWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisleftGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisrightGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisleftWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_LateraloccipitotemporalgyrusgyrusfusiformisrightWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusleftGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusrightGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusleftWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_CingulategyrusrightWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensleftGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensrightGM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensleftWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_volume_GyriparahippocampalisetambiensrightWM_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusmiddlepartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusmiddlepartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyrianteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyrianteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Insularight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Insulaleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Occipitalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Occipitallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyriposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyriposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Frontalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Frontallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Parietalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Parietallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Superiortemporalgyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyrileft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Medialandinferiortemporalgyriright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#thickness_Gyriparahippocampalisetambiensright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusmiddlepartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusmiddlepartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyrianteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyrianteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Insularight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Insulaleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Occipitalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Occipitallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyriposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyriposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Frontalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Frontallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Parietalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Parietallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Superiortemporalgyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyrileft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Medialandinferiortemporalgyriright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#sulc_Gyriparahippocampalisetambiensright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusmiddlepartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusmiddlepartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyrianteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyrianteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Insularight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Insulaleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Occipitalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Occipitallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyriposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyriposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Frontalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Frontallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Parietalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Parietallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Superiortemporalgyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyrileft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Medialandinferiortemporalgyriright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#curvature_Gyriparahippocampalisetambiensright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusmiddlepartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusmiddlepartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyrianteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyrianteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Occipitalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Occipitallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyriposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyriposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Frontalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Frontallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Parietalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Parietallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Superiortemporalgyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyrileft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Medialandinferiortemporalgyriright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#GI_Gyriparahippocampalisetambiensright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusmiddlepartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusmiddlepartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyrianteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyrianteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemtemporalporalgyrusgyrusfusiformisanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Insularight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Insulaleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Occipitalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Occipitallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyriposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyriposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Frontalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Frontallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Parietalloberight"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Parietallobeleft"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Superiortemporalgyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyrileft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Medialandinferiortemporalgyriright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Lateraloccipitotemporalgyrusgyrusfusiformisright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensleft_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/CorticalMaturation.owl#rel_surface_area_Gyriparahippocampalisetambiensright_mergedregion_"/><Class IRI="http://test.org/CorticalMaturation.owl#Geometric"/></SubClassOf>
+
+</Ontology>

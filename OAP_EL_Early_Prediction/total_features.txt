@@ -1,0 +1,508 @@
+volume
+volume - CSF
+volume - Cortical gray matter
+volume - White matter
+volume - Background
+volume - Ventricles
+volume - Cerebellum
+volume - Deep Gray Matter
+volume - Brainstem
+volume - Hippocampi and Amygdala
+rel-volume - CSF
+rel-volume - Cortical gray matter
+rel-volume - White matter
+rel-volume - Background
+rel-volume - Ventricles
+rel-volume - Cerebellum
+rel-volume - Deep Gray Matter
+rel-volume - Brainstem
+rel-volume - Hippocampi and Amygdala
+volume - Hippocampus left
+volume - Hippocampus right
+volume - Amygdala left
+volume - Amygdala right
+volume - Anterior temporal lobe medial part left GM
+volume - Anterior temporal lobe medial part right GM
+volume - Anterior temporal lobe lateral part left GM
+volume - Anterior temporal lobe lateral part right GM
+volume - Gyri parahippocampalis et ambiens anterior part left GM
+volume - Gyri parahippocampalis et ambiens anterior part right GM
+volume - Superior temporal gyrus middle part left GM
+volume - Superior temporal gyrus middle part right GM
+volume - Medial and inferior temporal gyri anterior part left GM
+volume - Medial and inferior temporal gyri anterior part right GM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left GM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right GM
+volume - Cerebellum left
+volume - Cerebellum right
+volume - Brainstem spans the midline
+volume - Insula right GM
+volume - Insula left GM
+volume - Occipital lobe right GM
+volume - Occipital lobe left GM
+volume - Gyri parahippocampalis et ambiens posterior part right GM
+volume - Gyri parahippocampalis et ambiens posterior part left GM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right GM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left GM
+volume - Medial and inferior temporal gyri posterior part right GM
+volume - Medial and inferior temporal gyri posterior part left GM
+volume - Superior temporal gyrus posterior part right GM
+volume - Superior temporal gyrus posterior part left GM
+volume - Cingulate gyrus anterior part right GM
+volume - Cingulate gyrus anterior part left GM
+volume - Cingulate gyrus posterior part right GM
+volume - Cingulate gyrus posterior part left GM
+volume - Frontal lobe right GM
+volume - Frontal lobe left GM
+volume - Parietal lobe right GM
+volume - Parietal lobe left GM
+volume - Caudate nucleus right
+volume - Caudate nucleus left
+volume - Thalamus right high intensity part in T2
+volume - Thalamus left high intensity part in T2
+volume - Subthalamic nucleus right
+volume - Subthalamic nucleus left
+volume - Lentiform Nucleus right
+volume - Lentiform Nucleus left
+volume - Corpus Callosum
+volume - Lateral Ventricle left
+volume - Lateral Ventricle right
+volume - Anterior temporal lobe medial part left WM
+volume - Anterior temporal lobe medial part right WM
+volume - Anterior temporal lobe lateral part left WM
+volume - Anterior temporal lobe lateral part right WM
+volume - Gyri parahippocampalis et ambiens anterior part left WM
+volume - Gyri parahippocampalis et ambiens anterior part right WM
+volume - Superior temporal gyrus middle part left WM
+volume - Superior temporal gyrus middle part right WM
+volume - Medial and inferior temporal gyri anterior part left WM
+volume - Medial and inferior temporal gyri anterior part right WM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left WM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right WM
+volume - Insula right WM
+volume - Insula left WM
+volume - Occipital lobe right WM
+volume - Occipital lobe left WM
+volume - Gyri parahippocampalis et ambiens posterior part right WM
+volume - Gyri parahippocampalis et ambiens posterior part left WM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right WM
+volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left WM
+volume - Medial and inferior temporal gyri posterior part right WM
+volume - Medial and inferior temporal gyri posterior part left WM
+volume - Superior temporal gyrus posterior part right WM
+volume - Superior temporal gyrus posterior part left WM
+volume - Cingulate gyrus anterior part right WM
+volume - Cingulate gyrus anterior part left WM
+volume - Cingulate gyrus posterior part right WM
+volume - Cingulate gyrus posterior part left WM
+volume - Frontal lobe right WM
+volume - Frontal lobe left WM
+volume - Parietal lobe right WM
+volume - Parietal lobe left WM
+volume - CSF.1
+volume - Extra-cranial background
+volume - Intra-cranial background
+volume - Thalamus right low intensity part in T2
+volume - Thalamus left low intensity part in T2
+volume - Temporal lobe left GM (merged region)
+volume - Temporal lobe right GM (merged region)
+volume - Temporal lobe left WM (merged region)
+volume - Temporal lobe right WM (merged region)
+volume - Superior temporal gyrus left GM (merged region)
+volume - Superior temporal gyrus right GM (merged region)
+volume - Superior temporal gyrus left WM (merged region)
+volume - Superior temporal gyrus right WM (merged region)
+volume - Medial and inferior temporal gyri left GM (merged region)
+volume - Medial and inferior temporal gyri right GM (merged region)
+volume - Medial and inferior temporal gyri left WM (merged region)
+volume - Medial and inferior temporal gyri right WM (merged region)
+volume - Lateral occipitotemporal gyrus gyrus fusiformis left GM (merged region)
+volume - Lateral occipitotemporal gyrus gyrus fusiformis right GM (merged region)
+volume - Lateral occipitotemporal gyrus gyrus fusiformis left WM (merged region)
+volume - Lateral occipitotemporal gyrus gyrus fusiformis right WM (merged region)
+volume - Cingulate gyrus left GM (merged region)
+volume - Cingulate gyrus right GM (merged region)
+volume - Cingulate gyrus left WM (merged region)
+volume - Cingulate gyrus right WM (merged region)
+volume - Gyri parahippocampalis et ambiens left GM (merged region)
+volume - Gyri parahippocampalis et ambiens right GM (merged region)
+volume - Gyri parahippocampalis et ambiens left WM (merged region)
+volume - Gyri parahippocampalis et ambiens right WM (merged region)
+rel-volume - Hippocampus left
+rel-volume - Hippocampus right
+rel-volume - Amygdala left
+rel-volume - Amygdala right
+rel-volume - Anterior temporal lobe medial part left GM
+rel-volume - Anterior temporal lobe medial part right GM
+rel-volume - Anterior temporal lobe lateral part left GM
+rel-volume - Anterior temporal lobe lateral part right GM
+rel-volume - Gyri parahippocampalis et ambiens anterior part left GM
+rel-volume - Gyri parahippocampalis et ambiens anterior part right GM
+rel-volume - Superior temporal gyrus middle part left GM
+rel-volume - Superior temporal gyrus middle part right GM
+rel-volume - Medial and inferior temporal gyri anterior part left GM
+rel-volume - Medial and inferior temporal gyri anterior part right GM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left GM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right GM
+rel-volume - Cerebellum left
+rel-volume - Cerebellum right
+rel-volume - Brainstem spans the midline
+rel-volume - Insula right GM
+rel-volume - Insula left GM
+rel-volume - Occipital lobe right GM
+rel-volume - Occipital lobe left GM
+rel-volume - Gyri parahippocampalis et ambiens posterior part right GM
+rel-volume - Gyri parahippocampalis et ambiens posterior part left GM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right GM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left GM
+rel-volume - Medial and inferior temporal gyri posterior part right GM
+rel-volume - Medial and inferior temporal gyri posterior part left GM
+rel-volume - Superior temporal gyrus posterior part right GM
+rel-volume - Superior temporal gyrus posterior part left GM
+rel-volume - Cingulate gyrus anterior part right GM
+rel-volume - Cingulate gyrus anterior part left GM
+rel-volume - Cingulate gyrus posterior part right GM
+rel-volume - Cingulate gyrus posterior part left GM
+rel-volume - Frontal lobe right GM
+rel-volume - Frontal lobe left GM
+rel-volume - Parietal lobe right GM
+rel-volume - Parietal lobe left GM
+rel-volume - Caudate nucleus right
+rel-volume - Caudate nucleus left
+rel-volume - Thalamus right high intensity part in T2
+rel-volume - Thalamus left high intensity part in T2
+rel-volume - Subthalamic nucleus right
+rel-volume - Subthalamic nucleus left
+rel-volume - Lentiform Nucleus right
+rel-volume - Lentiform Nucleus left
+rel-volume - Corpus Callosum
+rel-volume - Lateral Ventricle left
+rel-volume - Lateral Ventricle right
+rel-volume - Anterior temporal lobe medial part left WM
+rel-volume - Anterior temporal lobe medial part right WM
+rel-volume - Anterior temporal lobe lateral part left WM
+rel-volume - Anterior temporal lobe lateral part right WM
+rel-volume - Gyri parahippocampalis et ambiens anterior part left WM
+rel-volume - Gyri parahippocampalis et ambiens anterior part right WM
+rel-volume - Superior temporal gyrus middle part left WM
+rel-volume - Superior temporal gyrus middle part right WM
+rel-volume - Medial and inferior temporal gyri anterior part left WM
+rel-volume - Medial and inferior temporal gyri anterior part right WM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left WM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right WM
+rel-volume - Insula right WM
+rel-volume - Insula left WM
+rel-volume - Occipital lobe right WM
+rel-volume - Occipital lobe left WM
+rel-volume - Gyri parahippocampalis et ambiens posterior part right WM
+rel-volume - Gyri parahippocampalis et ambiens posterior part left WM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right WM
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left WM
+rel-volume - Medial and inferior temporal gyri posterior part right WM
+rel-volume - Medial and inferior temporal gyri posterior part left WM
+rel-volume - Superior temporal gyrus posterior part right WM
+rel-volume - Superior temporal gyrus posterior part left WM
+rel-volume - Cingulate gyrus anterior part right WM
+rel-volume - Cingulate gyrus anterior part left WM
+rel-volume - Cingulate gyrus posterior part right WM
+rel-volume - Cingulate gyrus posterior part left WM
+rel-volume - Frontal lobe right WM
+rel-volume - Frontal lobe left WM
+rel-volume - Parietal lobe right WM
+rel-volume - Parietal lobe left WM
+rel-volume - CSF.1
+rel-volume - Extra-cranial background
+rel-volume - Intra-cranial background
+rel-volume - Thalamus right low intensity part in T2
+rel-volume - Thalamus left low intensity part in T2
+rel-volume - Temporal lobe left GM (merged region)
+rel-volume - Temporal lobe right GM (merged region)
+rel-volume - Temporal lobe left WM (merged region)
+rel-volume - Temporal lobe right WM (merged region)
+rel-volume - Superior temporal gyrus left GM (merged region)
+rel-volume - Superior temporal gyrus right GM (merged region)
+rel-volume - Superior temporal gyrus left WM (merged region)
+rel-volume - Superior temporal gyrus right WM (merged region)
+rel-volume - Medial and inferior temporal gyri left GM (merged region)
+rel-volume - Medial and inferior temporal gyri right GM (merged region)
+rel-volume - Medial and inferior temporal gyri left WM (merged region)
+rel-volume - Medial and inferior temporal gyri right WM (merged region)
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis left GM (merged region)
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis right GM (merged region)
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis left WM (merged region)
+rel-volume - Lateral occipitotemporal gyrus gyrus fusiformis right WM (merged region)
+rel-volume - Cingulate gyrus left GM (merged region)
+rel-volume - Cingulate gyrus right GM (merged region)
+rel-volume - Cingulate gyrus left WM (merged region)
+rel-volume - Cingulate gyrus right WM (merged region)
+rel-volume - Gyri parahippocampalis et ambiens left GM (merged region)
+rel-volume - Gyri parahippocampalis et ambiens right GM (merged region)
+rel-volume - Gyri parahippocampalis et ambiens left WM (merged region)
+rel-volume - Gyri parahippocampalis et ambiens right WM (merged region)
+thickness
+thickness - Anterior temporal lobe medial part left
+thickness - Anterior temporal lobe medial part right
+thickness - Anterior temporal lobe lateral part left
+thickness - Anterior temporal lobe lateral part right
+thickness - Gyri parahippocampalis et ambiens anterior part left
+thickness - Gyri parahippocampalis et ambiens anterior part right
+thickness - Superior temporal gyrus middle part left
+thickness - Superior temporal gyrus middle part right
+thickness - Medial and inferior temporal gyri anterior part left
+thickness - Medial and inferior temporal gyri anterior part right
+thickness - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left
+thickness - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right
+thickness - Insula right
+thickness - Insula left
+thickness - Occipital lobe right
+thickness - Occipital lobe left
+thickness - Gyri parahippocampalis et ambiens posterior part right
+thickness - Gyri parahippocampalis et ambiens posterior part left
+thickness - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right
+thickness - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left
+thickness - Medial and inferior temporal gyri posterior part right
+thickness - Medial and inferior temporal gyri posterior part left
+thickness - Superior temporal gyrus posterior part right
+thickness - Superior temporal gyrus posterior part left
+thickness - Cingulate gyrus anterior part right
+thickness - Cingulate gyrus anterior part left
+thickness - Cingulate gyrus posterior part right
+thickness - Cingulate gyrus posterior part left
+thickness - Frontal lobe right
+thickness - Frontal lobe left
+thickness - Parietal lobe right
+thickness - Parietal lobe left
+thickness - Temporal lobe left (merged region)
+thickness - Temporal lobe right (merged region)
+thickness - Superior temporal gyrus left (merged region)
+thickness - Superior temporal gyrus right (merged region)
+thickness - Medial and inferior temporal gyri left (merged region)
+thickness - Medial and inferior temporal gyri right (merged region)
+thickness - Lateral occipitotemporal gyrus gyrus fusiformis left (merged region)
+thickness - Lateral occipitotemporal gyrus gyrus fusiformis right (merged region)
+thickness - Cingulate gyrus left (merged region)
+thickness - Cingulate gyrus right (merged region)
+thickness - Gyri parahippocampalis et ambiens left (merged region)
+thickness - Gyri parahippocampalis et ambiens right (merged region)
+sulc
+sulc - Anterior temporal lobe medial part left
+sulc - Anterior temporal lobe medial part right
+sulc - Anterior temporal lobe lateral part left
+sulc - Anterior temporal lobe lateral part right
+sulc - Gyri parahippocampalis et ambiens anterior part left
+sulc - Gyri parahippocampalis et ambiens anterior part right
+sulc - Superior temporal gyrus middle part left
+sulc - Superior temporal gyrus middle part right
+sulc - Medial and inferior temporal gyri anterior part left
+sulc - Medial and inferior temporal gyri anterior part right
+sulc - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left
+sulc - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right
+sulc - Insula right
+sulc - Insula left
+sulc - Occipital lobe right
+sulc - Occipital lobe left
+sulc - Gyri parahippocampalis et ambiens posterior part right
+sulc - Gyri parahippocampalis et ambiens posterior part left
+sulc - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right
+sulc - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left
+sulc - Medial and inferior temporal gyri posterior part right
+sulc - Medial and inferior temporal gyri posterior part left
+sulc - Superior temporal gyrus posterior part right
+sulc - Superior temporal gyrus posterior part left
+sulc - Cingulate gyrus anterior part right
+sulc - Cingulate gyrus anterior part left
+sulc - Cingulate gyrus posterior part right
+sulc - Cingulate gyrus posterior part left
+sulc - Frontal lobe right
+sulc - Frontal lobe left
+sulc - Parietal lobe right
+sulc - Parietal lobe left
+sulc - Temporal lobe left (merged region)
+sulc - Temporal lobe right (merged region)
+sulc - Superior temporal gyrus left (merged region)
+sulc - Superior temporal gyrus right (merged region)
+sulc - Medial and inferior temporal gyri left (merged region)
+sulc - Medial and inferior temporal gyri right (merged region)
+sulc - Lateral occipitotemporal gyrus gyrus fusiformis left (merged region)
+sulc - Lateral occipitotemporal gyrus gyrus fusiformis right (merged region)
+sulc - Cingulate gyrus left (merged region)
+sulc - Cingulate gyrus right (merged region)
+sulc - Gyri parahippocampalis et ambiens left (merged region)
+sulc - Gyri parahippocampalis et ambiens right (merged region)
+curvature
+curvature - Anterior temporal lobe medial part left
+curvature - Anterior temporal lobe medial part right
+curvature - Anterior temporal lobe lateral part left
+curvature - Anterior temporal lobe lateral part right
+curvature - Gyri parahippocampalis et ambiens anterior part left
+curvature - Gyri parahippocampalis et ambiens anterior part right
+curvature - Superior temporal gyrus middle part left
+curvature - Superior temporal gyrus middle part right
+curvature - Medial and inferior temporal gyri anterior part left
+curvature - Medial and inferior temporal gyri anterior part right
+curvature - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left
+curvature - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right
+curvature - Insula right
+curvature - Insula left
+curvature - Occipital lobe right
+curvature - Occipital lobe left
+curvature - Gyri parahippocampalis et ambiens posterior part right
+curvature - Gyri parahippocampalis et ambiens posterior part left
+curvature - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right
+curvature - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left
+curvature - Medial and inferior temporal gyri posterior part right
+curvature - Medial and inferior temporal gyri posterior part left
+curvature - Superior temporal gyrus posterior part right
+curvature - Superior temporal gyrus posterior part left
+curvature - Cingulate gyrus anterior part right
+curvature - Cingulate gyrus anterior part left
+curvature - Cingulate gyrus posterior part right
+curvature - Cingulate gyrus posterior part left
+curvature - Frontal lobe right
+curvature - Frontal lobe left
+curvature - Parietal lobe right
+curvature - Parietal lobe left
+curvature - Temporal lobe left (merged region)
+curvature - Temporal lobe right (merged region)
+curvature - Superior temporal gyrus left (merged region)
+curvature - Superior temporal gyrus right (merged region)
+curvature - Medial and inferior temporal gyri left (merged region)
+curvature - Medial and inferior temporal gyri right (merged region)
+curvature - Lateral occipitotemporal gyrus gyrus fusiformis left (merged region)
+curvature - Lateral occipitotemporal gyrus gyrus fusiformis right (merged region)
+curvature - Cingulate gyrus left (merged region)
+curvature - Cingulate gyrus right (merged region)
+curvature - Gyri parahippocampalis et ambiens left (merged region)
+curvature - Gyri parahippocampalis et ambiens right (merged region)
+GI
+GI - Anterior temporal lobe medial part left
+GI - Anterior temporal lobe medial part right
+GI - Anterior temporal lobe lateral part left
+GI - Anterior temporal lobe lateral part right
+GI - Gyri parahippocampalis et ambiens anterior part left
+GI - Gyri parahippocampalis et ambiens anterior part right
+GI - Superior temporal gyrus middle part left
+GI - Superior temporal gyrus middle part right
+GI - Medial and inferior temporal gyri anterior part left
+GI - Medial and inferior temporal gyri anterior part right
+GI - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left
+GI - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right
+GI - Occipital lobe right
+GI - Occipital lobe left
+GI - Gyri parahippocampalis et ambiens posterior part right
+GI - Gyri parahippocampalis et ambiens posterior part left
+GI - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right
+GI - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left
+GI - Medial and inferior temporal gyri posterior part right
+GI - Medial and inferior temporal gyri posterior part left
+GI - Superior temporal gyrus posterior part right
+GI - Superior temporal gyrus posterior part left
+GI - Cingulate gyrus anterior part right
+GI - Cingulate gyrus anterior part left
+GI - Cingulate gyrus posterior part right
+GI - Cingulate gyrus posterior part left
+GI - Frontal lobe right
+GI - Frontal lobe left
+GI - Parietal lobe right
+GI - Parietal lobe left
+GI - Temporal lobe left (merged region)
+GI - Temporal lobe right (merged region)
+GI - Superior temporal gyrus left (merged region)
+GI - Superior temporal gyrus right (merged region)
+GI - Medial and inferior temporal gyri left (merged region)
+GI - Medial and inferior temporal gyri right (merged region)
+GI - Lateral occipitotemporal gyrus gyrus fusiformis left (merged region)
+GI - Lateral occipitotemporal gyrus gyrus fusiformis right (merged region)
+GI - Cingulate gyrus left (merged region)
+GI - Cingulate gyrus right (merged region)
+GI - Gyri parahippocampalis et ambiens left (merged region)
+GI - Gyri parahippocampalis et ambiens right (merged region)
+surface-area
+surface-area - Anterior temporal lobe medial part left
+surface-area - Anterior temporal lobe medial part right
+surface-area - Anterior temporal lobe lateral part left
+surface-area - Anterior temporal lobe lateral part right
+surface-area - Gyri parahippocampalis et ambiens anterior part left
+surface-area - Gyri parahippocampalis et ambiens anterior part right
+surface-area - Superior temporal gyrus middle part left
+surface-area - Superior temporal gyrus middle part right
+surface-area - Medial and inferior temporal gyri anterior part left
+surface-area - Medial and inferior temporal gyri anterior part right
+surface-area - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left
+surface-area - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right
+surface-area - Insula right
+surface-area - Insula left
+surface-area - Occipital lobe right
+surface-area - Occipital lobe left
+surface-area - Gyri parahippocampalis et ambiens posterior part right
+surface-area - Gyri parahippocampalis et ambiens posterior part left
+surface-area - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right
+surface-area - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left
+surface-area - Medial and inferior temporal gyri posterior part right
+surface-area - Medial and inferior temporal gyri posterior part left
+surface-area - Superior temporal gyrus posterior part right
+surface-area - Superior temporal gyrus posterior part left
+surface-area - Cingulate gyrus anterior part right
+surface-area - Cingulate gyrus anterior part left
+surface-area - Cingulate gyrus posterior part right
+surface-area - Cingulate gyrus posterior part left
+surface-area - Frontal lobe right
+surface-area - Frontal lobe left
+surface-area - Parietal lobe right
+surface-area - Parietal lobe left
+surface-area - Temporal lobe left (merged region)
+surface-area - Temporal lobe right (merged region)
+surface-area - Superior temporal gyrus left (merged region)
+surface-area - Superior temporal gyrus right (merged region)
+surface-area - Medial and inferior temporal gyri left (merged region)
+surface-area - Medial and inferior temporal gyri right (merged region)
+surface-area - Lateral occipitotemporal gyrus gyrus fusiformis left (merged region)
+surface-area - Lateral occipitotemporal gyrus gyrus fusiformis right (merged region)
+surface-area - Cingulate gyrus left (merged region)
+surface-area - Cingulate gyrus right (merged region)
+surface-area - Gyri parahippocampalis et ambiens left (merged region)
+surface-area - Gyri parahippocampalis et ambiens right (merged region)
+rel-surface-area - Anterior temporal lobe medial part left
+rel-surface-area - Anterior temporal lobe medial part right
+rel-surface-area - Anterior temporal lobe lateral part left
+rel-surface-area - Anterior temporal lobe lateral part right
+rel-surface-area - Gyri parahippocampalis et ambiens anterior part left
+rel-surface-area - Gyri parahippocampalis et ambiens anterior part right
+rel-surface-area - Superior temporal gyrus middle part left
+rel-surface-area - Superior temporal gyrus middle part right
+rel-surface-area - Medial and inferior temporal gyri anterior part left
+rel-surface-area - Medial and inferior temporal gyri anterior part right
+rel-surface-area - Lateral occipitotemporal gyrus gyrus fusiformis anterior part left
+rel-surface-area - Lateral occipitotemporal gyrus gyrus fusiformis anterior part right
+rel-surface-area - Insula right
+rel-surface-area - Insula left
+rel-surface-area - Occipital lobe right
+rel-surface-area - Occipital lobe left
+rel-surface-area - Gyri parahippocampalis et ambiens posterior part right
+rel-surface-area - Gyri parahippocampalis et ambiens posterior part left
+rel-surface-area - Lateral occipitotemporal gyrus gyrus fusiformis posterior part right
+rel-surface-area - Lateral occipitotemporal gyrus gyrus fusiformis posterior part left
+rel-surface-area - Medial and inferior temporal gyri posterior part right
+rel-surface-area - Medial and inferior temporal gyri posterior part left
+rel-surface-area - Superior temporal gyrus posterior part right
+rel-surface-area - Superior temporal gyrus posterior part left
+rel-surface-area - Cingulate gyrus anterior part right
+rel-surface-area - Cingulate gyrus anterior part left
+rel-surface-area - Cingulate gyrus posterior part right
+rel-surface-area - Cingulate gyrus posterior part left
+rel-surface-area - Frontal lobe right
+rel-surface-area - Frontal lobe left
+rel-surface-area - Parietal lobe right
+rel-surface-area - Parietal lobe left
+rel-surface-area - Temporal lobe left (merged region)
+rel-surface-area - Temporal lobe right (merged region)
+rel-surface-area - Superior temporal gyrus left (merged region)
+rel-surface-area - Superior temporal gyrus right (merged region)
+rel-surface-area - Medial and inferior temporal gyri left (merged region)
+rel-surface-area - Medial and inferior temporal gyri right (merged region)
+rel-surface-area - Lateral occipitotemporal gyrus gyrus fusiformis left (merged region)
+rel-surface-area - Lateral occipitotemporal gyrus gyrus fusiformis right (merged region)
+rel-surface-area - Cingulate gyrus left (merged region)
+rel-surface-area - Cingulate gyrus right (merged region)
+rel-surface-area - Gyri parahippocampalis et ambiens left (merged region)
+rel-surface-area - Gyri parahippocampalis et ambiens right (merged region)

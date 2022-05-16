@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://test.org/tissueROIs.owl" ontologyIRI="http://test.org/tissueROIs.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+<Prefix name="" IRI="http://test.org/tissueROIs.owl"/>
+<Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+<Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix name="tissueROIs" IRI="http://test.org/tissueROIs.owl"/>
+
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobemedialpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobemedialpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobelateralpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobelateralpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporallobeleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporalloberightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporallobeleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporalloberightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Temporallobeleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Temporalloberight_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Cerebellum"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Cerebellumleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Cerebellumright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Brainstem"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Brainstemspansthemidline"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsularightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsulaleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsularightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsulaleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Insularight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Insulaleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartrightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartrightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusleftGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusrightGM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusleftWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusrightWM_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusanteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusanteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusposteriorpartright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusposteriorpartleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusleft_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusright_mergedregion_"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_FrontalloberightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_FrontallobeleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_FrontalloberightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Frontalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Frontallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitalloberightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitallobeleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitalloberightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitallobeleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Occipitalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Occipitallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietalloberightGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietallobeleftGM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietalloberightWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietallobeleftWM"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#thickness_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#sulc_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#curvature_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#GI_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Parietalloberight"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Parietallobeleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Caudatenucleusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Caudatenucleusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamusrighthighintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamuslefthighintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamusrightlowintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamusleftlowintensitypartinT2"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Subthalamicnucleusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Subthalamicnucleusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LentiformNucleusright"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LentiformNucleusleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Corpus_callosum"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CorpusCallosum"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#Ventricles"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LateralVentricleleft"/></Declaration>
+<Declaration><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LateralVentricleright"/></Declaration>
+
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartrightGM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartrightGM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobemedialpartrightWM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_AnteriortemporallobelateralpartrightWM"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobemedialpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobemedialpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobelateralpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Anteriortemporallobelateralpartright"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporallobeleftGM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporalloberightGM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporallobeleftWM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_TemporalloberightWM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Temporallobeleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Temporalloberight_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Temporal_lobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Cerebellum"/><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Cerebellumleft"/><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Cerebellumright"/><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Brainstem"/><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Brainstemspansthemidline"/><Class IRI="http://test.org/tissueROIs.owl#Posterior_fossa"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsularightGM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsulaleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsularightWM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_InsulaleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Insularight"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Insulaleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Insularight"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Insulaleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Insularight"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Insulaleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Insularight"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Insulaleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartrightGM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartrightGM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartrightWM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusanteriorpartleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartrightWM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusposteriorpartleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusleftGM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusrightGM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusleftWM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CingulategyrusrightWM_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusanteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusanteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusposteriorpartright"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusposteriorpartleft"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusleft_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Cingulategyrusright_mergedregion_"/><Class IRI="http://test.org/tissueROIs.owl#Insula_cingulate_gyri"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_FrontalloberightGM"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_FrontallobeleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_FrontalloberightWM"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Frontalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Frontallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Frontalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Frontallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Frontalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Frontallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Frontalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Frontallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Frontalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Frontallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Frontallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitalloberightGM"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitallobeleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitalloberightWM"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_OccipitallobeleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Occipitalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Occipitallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Occipitalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Occipitallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Occipitalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Occipitallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Occipitalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Occipitallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Occipitalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Occipitallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Occipitallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietalloberightGM"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietallobeleftGM"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietalloberightWM"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ParietallobeleftWM"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Parietalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#thickness_Parietallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Parietalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#sulc_Parietallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Parietalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#curvature_Parietallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Parietalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#GI_Parietallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Parietalloberight"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_surface_area_Parietallobeleft"/><Class IRI="http://test.org/tissueROIs.owl#Parietallobe"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Caudatenucleusright"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Caudatenucleusleft"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamusrighthighintensitypartinT2"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamuslefthighintensitypartinT2"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamusrightlowintensitypartinT2"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_ThalamusleftlowintensitypartinT2"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Subthalamicnucleusright"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_Subthalamicnucleusleft"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LentiformNucleusright"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LentiformNucleusleft"/><Class IRI="http://test.org/tissueROIs.owl#Basal_ganglia"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Corpus_callosum"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_CorpusCallosum"/><Class IRI="http://test.org/tissueROIs.owl#Corpus_callosum"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#Ventricles"/><Class IRI="http://test.org/tissueROIs.owl#Tissue"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LateralVentricleleft"/><Class IRI="http://test.org/tissueROIs.owl#Ventricles"/></SubClassOf>
+
+<SubClassOf><Class IRI="http://test.org/tissueROIs.owl#rel_volume_LateralVentricleright"/><Class IRI="http://test.org/tissueROIs.owl#Ventricles"/></SubClassOf>
+
+</Ontology>
