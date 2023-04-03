@@ -67,7 +67,7 @@ Clinical_features  = np.concatenate([Clinical_features, Scanner_features], axis=
 
 Path = 'Data\\Data_for_VGG\\'
 LS_cut = 3.0
-Fold = 10
+Fold = 5
 epoch_max = 3000
 i=1
 
@@ -175,6 +175,7 @@ for idx1, idx2 in kf.split(your_train_data, your_labels):
     model_training = model.fit([train_data_1, train_data_2, train_data_3, train_data_4, train_data_c],
                                 train_label, 
                                epochs=epoch_max,
+                               validation_split=0.25,
                                shuffle=False,
                                verbose=1,
                                batch_size=8,
