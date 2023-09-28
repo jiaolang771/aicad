@@ -1,42 +1,19 @@
+![Screenshot from 2023-05-02 16-07-25](https://github.com/luzhixiu/aicad/assets/26235854/5dc6faab-cee6-417c-8f9d-54b378ebdf2a)
 
-## AICAD code
+**About**
 
-This repository contains the code for AICAD lab (PI: Dr. Lili He)
+This repository is a curated collection of published academic softwares from AICAD Lab. The main purpose of this collection is to provide easy software access to researchers, educators, and students who are interested in our research work. 
 
+**Installation**
 
+Each software tool might have its own installation process. Please refer to the individual repository or documentation of the respective software for detailed installation and usage instructions.
 
-## Installation
-Make sure you have [Python](https://www.python.org/) installed, then install [TensorFlow](https://www.tensorflow.org/install/) on your system.
+**Citation**
 
-## Usage
+If you utilize any software from this collection in your work, please cite the original paper related to that software. The citation details can be found next to each software entry.
 
-### Prepare the training data
+**License**
 
-
-
-### Pre-trained VGG model
-
-Please also download the pre-trained VGG model from [here](https://github.com/machrisaa/tensorflow-vgg).
-
-### Training example
-```
-python DWMA_training.py
-``` 
+The contents of this repository are under the MIT License unless specified otherwise in the individual software repositories. See LICENSE for more information.
 
 
-## Contact
-
-Email: lili dot he at cchmc dot org 
-
-Any discussions, suggestions and questions are welcome!
-
-
-## Citation
-
-```
-
-```
-
-## Requirements
-Python
-Tensorflow
