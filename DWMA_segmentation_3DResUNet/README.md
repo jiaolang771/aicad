@@ -8,8 +8,7 @@ A collection of scripts and functions for processing, predicting, and evaluating
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Custom Loss Functions](#custom-loss-functions)
-- [Acknowledgements](#acknowledgements)
+
 
 ## **Overview**
 
