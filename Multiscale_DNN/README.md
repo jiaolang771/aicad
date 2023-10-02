@@ -29,9 +29,8 @@ This project implements a multiscale Deep Neural Network (DNN) model to handle i
 
 ## Note
 
-- The actual dimensions for the input arrays are derived from the formula: \( \frac{n \times (n-1)}{2} \), which is the formula for combinations.
 - The code uses synthetic data for illustration purposes. Replace the random data generation with your data loading mechanism to work with real-world data.
-- Adjust hyperparameters like the number of epochs, batch size, etc., as required.
+- Adjust hyperparameters like the number of epochs, batch size, etc., for your own task and dataset.
 
 ## License
 
