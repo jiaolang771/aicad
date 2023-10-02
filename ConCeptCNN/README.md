@@ -11,7 +11,7 @@ This repo contains scripts used to  to classify ADHD based on fMRI and DTI data
 Libraries: numpy, scipy, keras, sklearn, os, math, Graphviz
 
 
-**Datasets**
+**Dataset Structure**
 DTI: data/dti/DTI_FA_matrix.npy.
 
 ADHD:
