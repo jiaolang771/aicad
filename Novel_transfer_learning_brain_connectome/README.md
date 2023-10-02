@@ -31,10 +31,9 @@ This project illustrates how to use a Stacked Sparse Autoencoder (SSAE) to learn
 ## Note
 
 - The provided code uses synthetic data for demonstration. To apply this to real-world data, you can replace the random data generation with your own data loading mechanism.
-- A commented line `#SEEG_df = pd.read_excel('Data\data.xlsx', header=None)` hints at the possibility of loading data from an Excel file. Modify and uncomment this line if you wish to use actual data from such a file.
 - Hyperparameters such as the number of epochs, batch size, and others can be adjusted based on specific needs.
 
 ## License
 
-This project is open-source. If you choose to use or adapt this code for your needs, kindly give appropriate credit to the original author, `LIHAP9`.
+This project is open-source. If you choose to use or adapt this code for your needs, kindly give appropriate credit to the original author.
 
