@@ -1,6 +1,7 @@
 
-ADHD Classification with Neural Networks: README
+**ADHD Classification with Neural Networks**
 Overview
+
 This repo contains scripts used to  to classify ADHD based on fMRI and DTI data
 
 Requirements:
