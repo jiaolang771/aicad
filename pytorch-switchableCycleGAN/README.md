@@ -1,6 +1,9 @@
 # pytorch-abcd-switchableCycleGAN
 # Image-to-Image Translation Training Script
 
+
+This script is adapted from: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md
+
 ## Description
 
 This script provides functionality for training image-to-image translation models. The framework supports multiple models such as `pix2pix`, `cyclegan`, and `colorization` along with various dataset modes.
