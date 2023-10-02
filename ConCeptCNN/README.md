@@ -1,13 +1,17 @@
 
 **ADHD Classification with Neural Networks**
-Overview
+
+
+**Overview**
 
 This repo contains scripts used to  to classify ADHD based on fMRI and DTI data
 
-Requirements:
+**Requirements:**
 
 Libraries: numpy, scipy, keras, sklearn, os, math, Graphviz
 
+
+**Datasets**
 DTI: data/dti/DTI_FA_matrix.npy.
 
 ADHD:
@@ -18,7 +22,7 @@ data/adhd/adhd_test.mat
 data/adhd/adhd_train.mat
 
 
-Key Functions:
+**Key Functions:**
 
 load_dti_data(): Fetches DTI data.
 
