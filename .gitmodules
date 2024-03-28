@@ -1,3 +1,6 @@
 [submodule "CollabrativeLearning"]
 	path = CollabrativeLearning
 	url = https://github.com/leonzyzy/Collaborative
+[submodule "DwHGCN"]
+	path = DwHGCN
+	url = https://github.com/JunqiAug/DwHGCN/
