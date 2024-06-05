@@ -4,3 +4,6 @@
 [submodule "DwHGCN"]
 	path = DwHGCN
 	url = https://github.com/JunqiAug/DwHGCN/
+[submodule "Multi-channel-DeepLiverNet2.0"]
+	path = Multi-channel-DeepLiverNet2.0
+	url = https://github.com/almahdir1/Multi-channel-DeepLiverNet2.0
