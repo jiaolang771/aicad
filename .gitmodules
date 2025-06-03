@@ -7,3 +7,6 @@
 [submodule "Multi-channel-DeepLiverNet2.0"]
 	path = Multi-channel-DeepLiverNet2.0
 	url = https://github.com/almahdir1/Multi-channel-DeepLiverNet2.0
+[submodule "RadCLIP"]
+	path = RadCLIP
+	url = https://github.com/luzhixiu/RadCLIP
