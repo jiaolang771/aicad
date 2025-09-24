@@ -1,3 +1,9 @@
+# ConCeptCNN: A novel multi-filter convolutional neural network
+
+Funding: This work was supported by the National Institutes of Health R01-EB029944.
+
+•	Chen M, Li H, Fan H, Dillman JR, Wang H, Altaye M, Zhang B, Parikh NA, He L. ConCeptCNN: A novel multi-filter convolutional neural network for the prediction of neurodevelopmental disorders using brain connectome. Med Phys 2022;49:3171–3184. PMID: 35246986; PMCID: PMC9164760.
+
 
 **ADHD Classification with Neural Networks**
 
