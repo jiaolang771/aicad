@@ -1,5 +1,10 @@
 # Graph Convolutional Networks (GCN) for Brain Structural Connectivity
 
+Funding: This work was supported by the National Institutes of Health R01-EB029944.
+
+•	Li H, Li Z, Du K, Zhu Y, Parikh NA, He L. A Semi-Supervised Graph Convolutional Network for Early Prediction of Motor Abnormalities in Very Preterm Infants. Diagnostics (Basel) 2023;13. PMID: 37189608; PMCID: PMC10137879.
+
+
 ## Description
 
 This project demonstrates how to use a Semi-supervised Graph Convolutional Networks (GCN) model to classify brain structural connectivity data. The code loads synthetic data, processes it to suit a graph-based representation, and then trains a GCN model to classify the data based on some scores.
@@ -47,4 +52,5 @@ https://vermamachinelearning.github.io/keras-deep-graph-learning/
 ## License
 
 This project is open-source. If you choose to use or adapt this code for your needs, kindly give appropriate credit to the contributors and maintain the spirit of open-source.
+
 
