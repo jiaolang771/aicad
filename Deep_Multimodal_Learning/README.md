@@ -1,4 +1,8 @@
-# Deep Multimodal Neural Network
+# Deep Multimodal Learning From MRI and Clinical Data for Early Prediction of Neurodevelopmental Deficits in Very Preterm Infants
+
+Funding: This work was supported by the National Institutes of Health R01-EB029944.
+
+•	He L, Li H, Chen M, Wang J, Altaye M, Dillman JR, Parikh NA. Deep Multimodal Learning From MRI and Clinical Data for Early Prediction of Neurodevelopmental Deficits in Very Preterm Infants. Front Neurosci 2021;15:753033. PMID: 34675773; PMCID: PMC8525883.
 
 ## Description
 
