@@ -1,4 +1,9 @@
 ## A Novel Collaborative Self-Supervised Learning Method for Radiomic Data
+
+Funding: This work was supported by the National Institutes of Health R01-EB029944.
+
+•	Li Z, Li H, Ralescu AL, Dillman JR, Parikh NA, He L. A Novel Collaborative Self-Supervised Learning Method for Radiomic Data. Neuroimage 2023:120229. PMID: 37321358.
+
 Pytorch implementation
 
 ### Installation
