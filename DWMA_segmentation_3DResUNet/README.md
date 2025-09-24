@@ -1,7 +1,11 @@
 
 # **Brain Image Analysis with Neural Networks**
 
+Funding: This work was supported by the National Institutes of Health R01-EB029944.
 A collection of scripts and functions for processing, predicting, and evaluating brain images using state-of-the-art deep learning techniques.
+
+•	Li H, Chen M, Wang J, Illapani VSP, Parikh NA, He L. Automatic Segmentation of Diffuse White Matter Abnormality on T2-weighted Brain MRI Using Deep Learning in Very Preterm Infants. Radiology: Artificial Intelligence 2021;0:e200166.
+
 
 ## **Table of Contents**
 - [Overview](#overview)
